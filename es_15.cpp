@@ -6,10 +6,10 @@
 using namespace std;
 
 int main() {
-    int n, somma = 0;
+    int n, i, somma = 0;
     float media;
 
-    for (int i = 1; i <= 10; i++) {
+    for (i = 1; i <= 10; i++) {
         do {
             cout << "Inserisci un numero compreso tra 2 e 10: ";
             cin >> n;
@@ -18,7 +18,7 @@ int main() {
         somma += n;
     }
 
-    media = float(somma) / 10;
+    media = float(somma) / i;
 
     cout << "La somma è: " << somma << endl
          << "La media è: " << media << endl;
